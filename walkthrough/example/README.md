@@ -1,4 +1,4 @@
-# example
+# Get Started Flutter Package
 
 A Getting Started Demo Flutter application.
 
