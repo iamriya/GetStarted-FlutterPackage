@@ -82,8 +82,11 @@ class MyApp1 extends StatelessWidget {
           backgroundColor: Color(0xff195599),
         ), //appBar
 
-        body: GetStarted(pageList, pageObj, IndicatorShape.circle(size: 12.0),
-            onFinishPress: _finishPress, onSkipPress: _skipPress),
+        //Required Field
+        body: GetStarted(pageList : pageList),
+        //Required Field with Optional
+        //body: GetStarted(pageList : pageList, pg: pageObj, indicatorShape : IndicatorShape.circle(size: 12.0),
+        //  onFinishPress: _finishPress, onSkipPress: _skipPress),
       ),
     );
   }

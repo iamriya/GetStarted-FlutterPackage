@@ -70,8 +70,9 @@ import 'package:page_indicator/page_indicator.dart';
               lastButtonSize: 20.0);
               
    //A Page has three sections for Title, Description and an Icon respectively that can be customized for the text, font, color and size.
-    
-    walkthrough(
+      
+    final List<walkthrough> pageList = [
+        walkthrough(
             pageColor: "#48C9B0",
             title: "Welcome!",
             titleFont:
@@ -88,10 +89,37 @@ import 'package:page_indicator/page_indicator.dart';
               color: Colors.white,
               size: 100.0,
             ))
+        ];    
+    
 
 
 ## How to use
 Check out the **example** app in the [example](example) directory or the 'Example' tab on pub.dartlang.org for a more complete example.
+
+//Example how to use
+
+          @override
+            Widget build(BuildContext context) {
+              return new MaterialApp(
+                debugShowCheckedModeBanner: false,
+                home: Scaffold(
+                  //Required Field
+                  body: GetStarted(pageList : pageList),
+                  
+                  //Required Field with Optional
+                  body: GetStarted(pageList : pageList, pg: pageObj, indicatorShape : IndicatorShape.circle(size: 12.0),
+                  onFinishPress: _finishPress, onSkipPress: _skipPress),
+                ),
+              );
+            }
+            
+          void _skipPress() {
+                //define your skipButton functionality here.
+          }
+            
+          void _finishPress() {
+                //define your lastNextButton functionality here.
+          }
 
 ## Getting Started
 
