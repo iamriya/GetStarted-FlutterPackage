@@ -4,7 +4,7 @@ A Custom Getting Started Layout with custom Fonts and Colors.
 
 ## Preview
 
-![The example app running in Android]()
+![The example app running in Android](https://github.com/MobMaxime/GetStarted-FlutterPackage/blob/master/walkthrough/gif/GettingStarted.gif)
 
 ## Installing
 
