@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1164629f-a1ba-4df1-a733-78f0fa2a3b66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/walkthrough/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/walkthrough/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/walkthrough/example/lib/example.dart" beforeDir="false" afterPath="$PROJECT_DIR$/walkthrough/example/lib/example.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/walkthrough/lib/classes/page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/walkthrough/lib/classes/page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/walkthrough/lib/classes/walkthrough.dart" beforeDir="false" afterPath="$PROJECT_DIR$/walkthrough/lib/classes/walkthrough.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/walkthrough/lib/get_started.dart" beforeDir="false" afterPath="$PROJECT_DIR$/walkthrough/lib/get_started.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/walkthrough/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/walkthrough/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walkthrough/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/walkthrough/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,73 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/walkthrough/lib/classes/walkthrough.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/walkthrough/lib/get_started.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <element signature="e#22#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/walkthrough/pubspec.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/walkthrough/example/lib/example.dart">
+        <entry file="file://$PROJECT_DIR$/walkthrough/CHANGELOG.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/walkthrough/example/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/walkthrough/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -105,10 +38,11 @@
         <option value="$PROJECT_DIR$/walkthrough/lib/classes/page.dart" />
         <option value="$PROJECT_DIR$/walkthrough/lib/classes/walkthrough.dart" />
         <option value="$PROJECT_DIR$/walkthrough/lib/get_started.dart" />
-        <option value="$PROJECT_DIR$/walkthrough/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/walkthrough/pubspec.yaml" />
         <option value="$PROJECT_DIR$/walkthrough/example/lib/example.dart" />
+        <option value="$PROJECT_DIR$/walkthrough/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/walkthrough/CHANGELOG.md" />
       </list>
     </option>
   </component>
@@ -262,23 +196,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/walkthrough/example/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/walkthrough/README.md">
+    <entry file="file://$PROJECT_DIR$/walkthrough/example/lib/example.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+        <state relative-caret-position="222">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
-            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+        <state relative-caret-position="567">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/walkthrough/example/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/walkthrough/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="137" lean-forward="true" selection-end-line="137" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -292,13 +236,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/walkthrough/example/lib/example.dart">
+    <entry file="file://$PROJECT_DIR$/walkthrough/pubspec.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/walkthrough/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/walkthrough/CHANGELOG.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
