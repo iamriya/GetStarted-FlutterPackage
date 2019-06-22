@@ -28,8 +28,9 @@ import 'package:page_indicator/page_indicator.dart';
 
 3.  Adding GetStarted layout
 
-*With required parameters*
+#With required parameters#
 
+```dart
    //In the body of your MaterialApp,
    
     body: GetStarted(pageList, pageObj, IndicatorShape.circle(size: 12.0),
@@ -46,9 +47,11 @@ import 'package:page_indicator/page_indicator.dart';
      void _finishPress() {
        //define your lastNextButton functionality here.
      }            
-           
-*With optional parameters*
+  ```         
 
+#With optional parameters#
+
+```dart
    //All the properties defined for 'page' have some default values. Hence, you may skip some size, etc. if you wish to! But defining a pageObj of page class is a must, so as to pass it as a parameter in GetStarted().
         
           page pageObj = new page(
@@ -90,12 +93,12 @@ import 'package:page_indicator/page_indicator.dart';
               size: 100.0,
             ))
         ];    
-    
-
+ ```   
 
 ## How to use
 Check out the **example** app in the [example](example) directory or the 'Example' tab on pub.dartlang.org for a more complete example.
 
+```dart
 //Example how to use
 
           @override
@@ -120,6 +123,7 @@ Check out the **example** app in the [example](example) directory or the 'Exampl
           void _finishPress() {
                 //define your lastNextButton functionality here.
           }
+```
 
 ## Getting Started
 
