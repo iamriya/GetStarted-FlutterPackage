@@ -9,13 +9,13 @@ class GetStarted extends StatefulWidget {
   final GestureTapCallback onSkipPress;
   final GestureTapCallback onFinishPress;
   List<walkthrough> pageList;
-  page pg;
   IndicatorShape indicatorShape;
+  page pg = new page();
 
-  GetStarted(List<walkthrough> pageList, page pg, IndicatorShape indicatorShape,
-      {this.onFinishPress, this.onSkipPress}) {
+  GetStarted({@required List<walkthrough> pageList, page pagestyle, IndicatorShape indicatorShape,
+      this.onFinishPress, this.onSkipPress}) {
     this.pageList = pageList;
-    this.pg = pg;
+    this.pg = pagestyle == null ? pg : pagestyle;
     this.indicatorShape = indicatorShape == null
         ? IndicatorShape.circle(size: 11.0)
         : indicatorShape;
