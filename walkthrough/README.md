@@ -1,5 +1,7 @@
 # Flutter Getting Started Layout
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/25283ed8fd2b4f65b86dd1124632bf2b)](https://app.codacy.com/app/iamriya/GetStarted-FlutterPackage?utm_source=github.com&utm_medium=referral&utm_content=iamriya/GetStarted-FlutterPackage&utm_campaign=Badge_Grade_Dashboard)
+
 A Custom Getting Started Layout with custom Fonts and Colors.
 
 ## Preview
@@ -33,20 +35,28 @@ import 'package:page_indicator/page_indicator.dart';
 ```dart
    //In the body of your MaterialApp,
    
-    body: GetStarted(pageList, pageObj, IndicatorShape.circle(size: 12.0),
-               onFinishPress: _finishPress, onSkipPress: _skipPress),
-               
-   //Defining below functionalities is for the user.
-   
-     void _skipPress() {
-       //define your skipButton functionality here.
-     }
-     
-     //By default, nextButton functionality is defined, to move to Next Page.
-   
-     void _finishPress() {
-       //define your lastNextButton functionality here.
-     }            
+    @override
+                Widget build(BuildContext context) {
+                  return new MaterialApp(
+                    debugShowCheckedModeBanner: false,
+                    home: Scaffold(
+                      //Required Field
+                      //body: GetStarted(pageList : pageList),
+                      
+                      //Required Field with Optional parameters
+                      body: GetStarted(pageList : pageList, pageStyle: pageObj, indicatorShape : IndicatorShape.circle(size: 12.0),
+                      onFinishPress: _finishPress, onSkipPress: _skipPress),
+                    ),
+                  );
+                }
+                
+              void _skipPress() {
+                    //define your skipButton functionality here.
+              }
+                
+              void _finishPress() {
+                    //define your lastNextButton functionality here.
+              }
   ```         
 
 #With optional parameters#
@@ -97,33 +107,6 @@ import 'package:page_indicator/page_indicator.dart';
 
 ## How to use
 Check out the **example** app in the [example](example) directory or the 'Example' tab on pub.dartlang.org for a more complete example.
-
-```dart
-//Example how to use
-
-          @override
-            Widget build(BuildContext context) {
-              return new MaterialApp(
-                debugShowCheckedModeBanner: false,
-                home: Scaffold(
-                  //Required Field
-                  body: GetStarted(pageList : pageList),
-                  
-                  //Required Field with Optional
-                  body: GetStarted(pageList : pageList, pageStyle: pageObj, indicatorShape : IndicatorShape.circle(size: 12.0),
-                  onFinishPress: _finishPress, onSkipPress: _skipPress),
-                ),
-              );
-            }
-            
-          void _skipPress() {
-                //define your skipButton functionality here.
-          }
-            
-          void _finishPress() {
-                //define your lastNextButton functionality here.
-          }
-```
 
 ## Getting Started
 
