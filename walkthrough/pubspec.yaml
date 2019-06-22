@@ -1,5 +1,5 @@
 name: get_started
-description: A Flutter Getting Started Walkthrough Layout package. This package can be imported if you wish to add a Getting Started Guide or Tutorial for your application. We provide the Layout with some default values for properties defined, you may customize according to your needs and make the best out of it.
+description: A Flutter Getting Started Walkthrough Layout package. Adds a Getting Started Guide/Tutorial to applications. Customize and use! :).
 version: 0.0.2
 author: Mobmaxime<project@mobmaxime.com>
 homepage: http://mobmaxime.com
