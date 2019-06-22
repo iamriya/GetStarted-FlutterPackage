@@ -85,15 +85,15 @@ class _MyApp1State extends State<MyApp1> {
         ), //appBar
 
         //Required Field
-        body: GetStarted(pageList : pageList),
+        //body: GetStarted(pageList : pageList),
 
-        //Required Field with Optional
-//        body: GetStarted(
-//            pageList: pageList,
-//            pageStyle: pageObj,
-//            indicatorShape: IndicatorShape.circle(size: 12.0),
-//            onFinishPress: _finishPress,
-//            onSkipPress: _skipPress),
+        //Required Field with Optional parameters
+        body: GetStarted(
+            pageList: pageList,
+            pageStyle: pageObj,
+            indicatorShape: IndicatorShape.circle(size: 12.0),
+            onFinishPress: _finishPress,
+            onSkipPress: _skipPress),
       ),
     );
   }
