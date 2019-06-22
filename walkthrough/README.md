@@ -12,11 +12,11 @@ A Custom Getting Started Layout with custom Fonts and Colors.
 
 1.  Add dependency to `pubspec.yaml`
 
-    *Get the latest version in the 'Installing' tab on pub.dartlang.org*
+    *Get the latest version in the 'Installing' tab on [pub.dartlang.org](pub.dartlang.org)*
     
 ```dart
 dependencies:
-    get_started: 0.0.1
+    get_started: ^0.1.1
 ```
 
 2.  Import the packages
@@ -106,7 +106,7 @@ import 'package:page_indicator/page_indicator.dart';
  ```   
 
 ## How to use
-Check out the **example** app in the [example](example) directory or the 'Example' tab on pub.dartlang.org for a more complete example.
+Check out the **example** app in the [example directory](https://github.com/MobMaxime/GetStarted-FlutterPackage/tree/master/walkthrough/example) or the 'Example' tab on pub.dartlang.org for a more complete example.
 
 ## Getting Started
 
