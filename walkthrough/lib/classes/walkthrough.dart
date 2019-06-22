@@ -1,4 +1,4 @@
-class walkthrough {
+class Walkthrough {
   final String pageColor;
   final String title;
   final String titleFont;
@@ -10,7 +10,7 @@ class walkthrough {
   final double descriptionSize;
   final imageIcon;
 
-  walkthrough(
+  Walkthrough(
       {this.titleFont = "Lato",
       this.descriptionFont = "Lato",
       this.pageColor = "#195599",

@@ -1,5 +1,5 @@
 
-class page{
+class Page{
   final String bgColor;
   final String indicatorColor;
   final String indicatorSelectorColor;
@@ -16,7 +16,7 @@ class page{
   final double lastButtonSize;
   final String lastNextButton;
 
-  page({
+  Page({
     this.bgColor="#ffffff",
     this.indicatorColor="#ffffff",
     this.indicatorSelectorColor="#195599",

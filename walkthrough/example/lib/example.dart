@@ -8,10 +8,14 @@ void main() {
   runApp(new MyApp1());
 }
 
-class MyApp1 extends StatelessWidget {
-
+class MyApp1 extends StatefulWidget {
   //All the properties defined for 'page' have some default values. Hence, you may skip some size, etc. if you wish to!
-  page pageObj = new page(
+  @override
+  _MyApp1State createState() => _MyApp1State();
+}
+
+class _MyApp1State extends State<MyApp1> {
+  Page pageObj = new Page(
       bgColor: "#ffffff",
       indicatorColor: "#ffffff",
       indicatorSelectorColor: "#195599",
@@ -29,10 +33,8 @@ class MyApp1 extends StatelessWidget {
       lastButtonFont: "Lato",
       lastButtonSize: 20.0);
 
-  //A Page has three sections for Title, Description and an Icon respectively that can be customized for the text, font, color and size.
-  //You can add as many pages as you wish to have, by adding same no. of walkthroughs in the List below.
-  List<walkthrough> pageList = [
-    walkthrough(
+  List<Walkthrough> pageList = [
+    Walkthrough(
         pageColor: "#48C9B0",
         title: "Welcome!",
         titleFont:
@@ -49,7 +51,7 @@ class MyApp1 extends StatelessWidget {
           color: Colors.white,
           size: 100.0,
         )),
-    walkthrough(
+    Walkthrough(
         pageColor: "#EC7063",
         title: "Add a photo!",
         description: "Building your memory lane with your photographs. :)",
@@ -58,7 +60,7 @@ class MyApp1 extends StatelessWidget {
           color: Colors.white,
           size: 100.0,
         )),
-    walkthrough(
+    Walkthrough(
         pageColor: "#F4D03F",
         title: "Documents",
         description: "Store your files safe and sound here.",
@@ -84,9 +86,14 @@ class MyApp1 extends StatelessWidget {
 
         //Required Field
         body: GetStarted(pageList : pageList),
+
         //Required Field with Optional
-        //body: GetStarted(pageList : pageList, pg: pageObj, indicatorShape : IndicatorShape.circle(size: 12.0),
-        //  onFinishPress: _finishPress, onSkipPress: _skipPress),
+//        body: GetStarted(
+//            pageList: pageList,
+//            pageStyle: pageObj,
+//            indicatorShape: IndicatorShape.circle(size: 12.0),
+//            onFinishPress: _finishPress,
+//            onSkipPress: _skipPress),
       ),
     );
   }
@@ -94,8 +101,6 @@ class MyApp1 extends StatelessWidget {
   void _skipPress() {
     //define your skipButton functionality here.
   }
-
-  //By default, nextButton functionality is defined, to move to Next Page.
 
   void _finishPress() {
     //define your lastNextButton functionality here.

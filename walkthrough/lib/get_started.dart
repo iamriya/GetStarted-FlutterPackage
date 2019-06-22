@@ -8,14 +8,14 @@ import 'classes/page.dart';
 class GetStarted extends StatefulWidget {
   final GestureTapCallback onSkipPress;
   final GestureTapCallback onFinishPress;
-  List<walkthrough> pageList;
+  List<Walkthrough> pageList;
   IndicatorShape indicatorShape;
-  page pg = new page();
+  Page pg = new Page();
 
-  GetStarted({@required List<walkthrough> pageList, page pagestyle, IndicatorShape indicatorShape,
+  GetStarted({@required List<Walkthrough> pageList, Page pageStyle, IndicatorShape indicatorShape,
       this.onFinishPress, this.onSkipPress}) {
     this.pageList = pageList;
-    this.pg = pagestyle == null ? pg : pagestyle;
+    this.pg = pageStyle == null ? pg : pageStyle;
     this.indicatorShape = indicatorShape == null
         ? IndicatorShape.circle(size: 11.0)
         : indicatorShape;
@@ -28,19 +28,18 @@ class GetStarted extends StatefulWidget {
 
 class _GetStartedState extends State<GetStarted> {
   PageController pgController = new PageController();
-  page pg;
+  Page pg;
   GestureTapCallback onSkipPress;
   GestureTapCallback onFinishPress;
-  List<walkthrough> pageList;
+  List<Walkthrough> pageList;
   IndicatorShape indicatorShape;
   bool lastPage = false;
 
   _GetStartedState(this.pageList, this.pg, this.indicatorShape,
-      this.onFinishPress, this.onSkipPress) {}
+      this.onFinishPress, this.onSkipPress);
 
   @override
   Widget build(BuildContext context) {
-    String abc = pg.nextButtonText;
     return new Scaffold(
         backgroundColor: hexToColor(pg.bgColor),
         body: PageIndicatorContainer(

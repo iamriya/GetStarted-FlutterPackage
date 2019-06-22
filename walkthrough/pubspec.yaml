@@ -1,6 +1,6 @@
 name: get_started
-description: A new Flutter Getting Started Walkthrough Layout package.
-version: 0.0.1
+description: A Flutter Getting Started Walkthrough Layout package. This package can be imported if you wish to add a Getting Started Guide or Tutorial for your application. We provide the Layout with some default values for properties defined, you may customize according to your needs and make the best out of it.
+version: 0.0.2
 author: Mobmaxime<project@mobmaxime.com>
 homepage: http://mobmaxime.com
 
