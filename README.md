@@ -118,3 +118,6 @@ multiple Flutter or Dart projects.
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
+
+##Liked it?
+Please star the repo if you liked it or if it helped you somehow! :)
